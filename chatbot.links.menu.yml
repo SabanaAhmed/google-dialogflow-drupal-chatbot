@@ -1,0 +1,6 @@
+chatbot.settings_form:
+  title: Chatbot
+  description: Chatbot configuration.
+  parent: system.admin_config
+  route_name: chatbot.settings_form
+  weight: 150

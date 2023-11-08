@@ -1,0 +1,7 @@
+name: chatbot
+type: module
+description: Create chatbot integrated with google dialogflow.
+package: Custom
+version: 1.x
+core: 8.x
+core_version_requirement: ^8 || ^9

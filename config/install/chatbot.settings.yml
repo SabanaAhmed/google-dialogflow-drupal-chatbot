@@ -1,0 +1,6 @@
+chatbot:
+  chatbot_title: "ChatBot"
+  chatbot_logo: '../assets/images/icon-logo.png'
+  project_id: ''
+  client_secrit: ''
+

@@ -1,0 +1,15 @@
+chatbot.settings_form:
+  path: '/admin/config/cfc-chatbot'
+  defaults:
+    _title: 'Chatbot configuration'
+    _form: 'Drupal\chatbot\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+chatbot.conversation:
+  path: '/chatToken'
+  defaults:
+    _title: 'Chat'
+    _controller: 'Drupal\chatbot\Controller\ChatbotController::chatToken'
+  requirements:
+    _access: 'TRUE'

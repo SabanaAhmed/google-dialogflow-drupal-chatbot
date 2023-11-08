@@ -1,0 +1,16 @@
+# Custom module library for general purposes.
+chatbot_assets:
+  js:
+    assets/js/chatbot.js: {}
+  css:
+    component:
+      assets/css/chatbot.css: {}
+  dependencies:
+    - core/matchmedia
+    - core/jquery
+    - core/drupal
+    - core/jquery.once
+    - core/drupal.debounce
+    - core/drupal.ajax
+    - core/drupalSettings
+    - core/collapse
